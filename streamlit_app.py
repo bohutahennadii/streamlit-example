@@ -13,8 +13,8 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-num_points = st.number_input('Enter a number')
-num_turns = st.number_input('Enter a number')
+num_points = st.selectbox('Select', [1,2,3])
+num_turns = st.selectbox('Select', [1,2,3])
 
 indices = np.linspace(0, 1, num_points)
 theta = 2 * np.pi * num_turns * indices
