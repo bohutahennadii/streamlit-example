@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-
+import streamlit as st
+st.text('Hyi')
 def fetch_bbc_news():
     url = 'https://www.bbc.com/news/world-60525350'
     response = requests.get(url)
