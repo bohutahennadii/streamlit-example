@@ -14,4 +14,4 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 num_points = st.selectbox('Select', [1,2,3])
-num_turns = st.selectbox('Select', [1,2,3])
+num_turns = st.selectbox('Selec', [1,2,3])
