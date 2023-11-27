@@ -14,7 +14,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 num_points = st.number_input('Enter a number')
-num_turns = st.slider("Number of turns in spiral", 1, 300, 31)
+num_turns = st.number_input('Enter a number')
 
 indices = np.linspace(0, 1, num_points)
 theta = 2 * np.pi * num_turns * indices
