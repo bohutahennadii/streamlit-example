@@ -9,7 +9,7 @@ response = requests.get(url)
 # Перевірте статус відповіді; 200 означає, що все гаразд
 if response.status_code != 200:
   st.text(f'Failed to retrieve the page with status code: {response.status_code}')
-  return None
+  
 
 soup = BeautifulSoup(response.content, 'html.parser')
 
