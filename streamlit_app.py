@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import streamlit as st
-
+st.text('XIY')
 url = st.text_input('Enter url')
 response = requests.get(url)
-st.text('XIY')
+
 # Перевірте статус відповіді; 200 означає, що все гаразд
   if response.status_code != 200:
     st.text(f'Failed to retrieve the page with status code: {response.status_code}')
