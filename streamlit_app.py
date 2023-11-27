@@ -40,4 +40,4 @@ with open(csv_filename, mode='r', encoding='utf-8') as file:
         english_text += ', '.join(row) + '\n'
 
 # Виводимо вміст
-st.text(english_text)
+st.text(headlines)
