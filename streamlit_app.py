@@ -5,7 +5,7 @@ import streamlit as st
 
 url = st.text_input('Enter url')
 response = requests.get(url)
-
+st.text('XIY')
 # Перевірте статус відповіді; 200 означає, що все гаразд
   if response.status_code != 200:
     st.text(f'Failed to retrieve the page with status code: {response.status_code}')
